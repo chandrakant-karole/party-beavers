@@ -411,6 +411,82 @@ body{
 }
 /* ================================= About Style End ==================================================== */
 
+/* ================================= Portfolio Style Start ==================================================== */
+
+.portfolio_container{
+    background: #F7F6F6;
+    margin-top: 20px;
+}
+
+.portfolio_cardcontainer{
+    background: #F7F6F6;
+}
+
+.portfolio_headtxt{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.portfolio_headtxt h2{
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 40px 0px 0px 0px;
+}
+
+.portfolio_para p{
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    padding: 40px;
+}
+
+.portfolio_cardrow{
+    justify-content: center;
+}
+
+.portfolio_cardtitle{
+    text-transform: uppercase;
+    color: grey;
+    font-weight: 900 !important;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 0px;
+}
+/* ================================= Portfolio Style End ==================================================== */
+
+
+/* ================================= Portfolio 1 Style Start ==================================================== */
+
+.portfolio1_container{
+    background: #F7F6F6;
+    margin-top: 20px;
+}
+
+.portfolio1_titlediv{
+    border-bottom: 1px solid grey;
+    padding-top: 40px;
+}
+
+.portfolio1_titlediv h2{
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.portfolio1_paradiv{
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+}
+
+.portfolio1_paradiv p{
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+}
+
+/* ================================= Portfolio 1 Style End ==================================================== */
+
+
 /* ================================= Footer Style Start ================================================== */
 
 .footer_div{
