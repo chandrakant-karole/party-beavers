@@ -482,10 +482,47 @@ body{
 .portfolio1_paradiv p{
     font-family: 'Raleway', sans-serif;
     color: grey;
+    padding: 50px;
 }
 
 /* ================================= Portfolio 1 Style End ==================================================== */
 
+/* ================================= Portfolio 2 Style Start ==================================================== */
+
+.portfolio2_container{
+    background: #F7F6F6;
+    margin-top: 20px;
+}
+
+.portfolio2_titlediv{
+    border-bottom: 1px solid grey;
+    padding-top: 40px;
+}
+
+.portfolio2_titlediv h2{
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.portfolio2_paradiv{
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+}
+
+.portfolio2_paradiv p{
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+    padding: 50px;
+}
+
+.portfolio2_slidcontainer{
+    background: #F7F6F6;
+    padding: 50px !important;
+}
+
+/* ================================= Portfolio 2 Style End ==================================================== */
 
 /* ================================= Footer Style Start ================================================== */
 
