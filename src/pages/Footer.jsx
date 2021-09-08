@@ -9,7 +9,7 @@ function Footer(){
             <Container>
                 <Row className="footer_div">
                     <div>
-                        <p>© 2023 by Party Beavers and the NFT Factory Canada</p>
+                        <p className="footer_para">© 2023 by Party Beavers and the NFT Factory Canada</p>
                         <div className="footericon_div">
                             <div className="facebook_div">
                                 <a href="javascript:;">
