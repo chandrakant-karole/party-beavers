@@ -5,6 +5,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Portfolio1 from './pages/Portfolio1';
 import Portfolio2 from './pages/Portfolio2';
+import Contact from './pages/Contact';
 import { Switch, Route } from "react-router-dom";
 
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/portfolio" component={Portfolio}/>
         <Route path="/portfolio1" component={Portfolio1}/>
         <Route path="/portfolio2" component={Portfolio2}/>
+        <Route path="/contact" component={Contact}/>
       </Switch>
     </>
   );

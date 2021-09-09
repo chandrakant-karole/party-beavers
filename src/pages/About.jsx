@@ -41,7 +41,7 @@ function About() {
             <Container className="about_cardcontainer">
                 <Row className="about_cardsrow">
                     <Card className="about_card" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={Book} className="about_cardimg" />
+                        <Card.Img variant="top" src={Book} className="about_cardimg" alt="books"/>
                         <div className="about_svg">
                             <svg fill="#fff" preserveAspectRatio="xMidYMid meet" className="about_svgicon" id="SvgShp1-1c7asvgcontent" data-bbox="4.042 2.476 50 45.024" xmlns="http://www.w3.org/2000/svg" viewBox="4.042 2.476 50 45.024" role="img">
                                 <g>
@@ -58,8 +58,8 @@ function About() {
                             I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
                         </Card.Text>
                     </Card>
-                    <Card className="about_card" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={Crypto} className="about_cardimg" />
+                    <Card className="about_card second" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Crypto} className="about_cardimg" alt="crypto-coin"/>
                         <div className="about_svg">
                             <svg fill="#fff" preserveAspectRatio="xMidYMid meet" className="about_svgicon" id="SvgShp1-1c7asvgcontent" data-bbox="4.042 2.476 50 45.024" xmlns="http://www.w3.org/2000/svg" viewBox="4.042 2.476 50 45.024" role="img">
                                 <g>
@@ -76,8 +76,8 @@ function About() {
                             I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.
                         </Card.Text>
                     </Card>
-                    <Card className="about_card" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={Draw} className="about_cardimg" />
+                    <Card className="about_card third" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Draw} className="about_cardimg" alt="draw"/>
                         <div className="about_svg">
                             <svg fill="#fff" preserveAspectRatio="xMidYMid meet" className="about_svgicon" id="SvgShp1-1c7asvgcontent" data-bbox="4.042 2.476 50 45.024" xmlns="http://www.w3.org/2000/svg" viewBox="4.042 2.476 50 45.024" role="img">
                                 <g>

@@ -42,8 +42,8 @@ function Home() {
             </Container>
             <Container>
                 <Row className="homecard_div">
-                    <Card className="home_card" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={Dummy} />
+                    <Card className="home_card first" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Dummy} alt="characters-gif"/>
                         <Card.Title className="homecard_txt">GIF of characters
                             rapidly changing</Card.Title>
                         <div className="homecard_btm">
@@ -52,8 +52,8 @@ function Home() {
                                 Totally ready to party!</p>
                         </div>
                     </Card>
-                    <Card className="home_card" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={Dummy} />
+                    <Card className="home_card second" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Dummy} alt="frat-house"/>
                         <Card.Title className="homecard_txt">Image
                             of the front of the
                             frat house.</Card.Title>
@@ -63,8 +63,8 @@ function Home() {
                                 Are you ready to @#$%ing party in the metaverse?</p>
                         </div>
                     </Card>
-                    <Card className="home_card" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={Dummy} />
+                    <Card className="home_card third" style={{ width: '18rem' }}>
+                        <Card.Img variant="top" src={Dummy} alt="beavers"/>
                         <Card.Title className="homecard_txt">
                             <ul>
                                 <li>Slide show of:</li>
@@ -92,12 +92,12 @@ function Home() {
             <Container>
                 <Row>
                     <Col lg={6}>
-                        <div className="homebtn_div">
+                        <div className="homebtn_div first">
                             <a className="btnOne" href="javascript:;">Connect Wallet</a>
                         </div>
                     </Col>
                     <Col lg={6}>
-                    <div className="homebtn_div">
+                    <div className="homebtn_div second">
                         <a className="btnTwo" href="javascript:;">Mint a Party beaver</a>
                     </div>
                     </Col>

@@ -28,13 +28,13 @@ function Portfolio() {
                 <Row className="portfolio_cardrow">
                     <Card className="home_card" style={{ width: '18rem' }}>
                             <a href="javascript:;">
-                            <Card.Img variant="top" src={PortfolioTwo} />
+                            <Card.Img variant="top" src={PortfolioTwo} alt="portfolio-1"/>
                             </a>
                         <Card.Title className="portfolio_cardtitle">Portfolio 1</Card.Title>
                     </Card>
                     <Card className="home_card" style={{ width: '18rem' }}>
                         <a href="javascript:;">
-                        <Card.Img variant="top" src={PortfolioTwo} />
+                        <Card.Img variant="top" src={PortfolioTwo} alt="portfolio-2"/>
                         </a>
                         <Card.Title className="portfolio_cardtitle">Portfolio 2</Card.Title>
                     </Card>

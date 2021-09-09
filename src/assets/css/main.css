@@ -21,7 +21,7 @@ body{
     display: flex;
     justify-content: center;
     background: #FFFAF7;
-    padding: 12px 35px;
+    padding: 5px 10px;
 }
 
 .head_div h1{
@@ -29,6 +29,7 @@ body{
     color: grey;
     letter-spacing: 1px;
     margin: 0%;
+    font-weight: 900;
 }
 
 .headerbtn_div{
@@ -54,10 +55,19 @@ body{
 }
 
 .headerbtn_div a:hover{
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 50%);
     cursor: pointer;
     letter-spacing: 1.5px;
     color: black;
+}
+
+@media screen and (max-width:425px){
+    .head_div h1{
+        font-size: 22px;
+    }
+    .headerbtn_div{
+        text-align: center;
+    }
 }
 
 /* ================================= Head Style End ==================================================== */
@@ -67,18 +77,19 @@ body{
 .home_titlediv{
     padding: 20px 20px 50px 20px;
     position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .home_tilesocial{
-    position: absolute;
-    top: 20px;
-    right: 10px;
     display: flex;
 }
 
 .hometwitter_div{
     background: black;
     width: 31px;
+    height: 33px;
     padding: 4px 1px 4px 3px;
     border-radius: 50%;
     margin-left: 10px;
@@ -87,6 +98,7 @@ body{
 .homeinstagram_div{
     background: black;
     width: 31px;
+    height: 33px;
     padding: 4px 1px 2px 3px;
     border-radius: 50%;
     margin-left: 10px;
@@ -95,6 +107,7 @@ body{
 .homefacebook_div{
     background: black;
     width: 31px;
+    height: 33px;
     padding: 5px 5px 3px 5px;
     border-radius: 50%;
 }
@@ -145,10 +158,13 @@ body{
     margin: -10%;
     color: grey;
     height: 200px;
+    display: flex;
+    align-items: center;
 }
 
 .homecard_btm p{
     font-size: 17px;
+    margin: 0%;
 }
 
 .homecard_btm ul{
@@ -175,7 +191,7 @@ body{
 }
 
 .homebtn_div .btnOne:hover{
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
     cursor: pointer;
     letter-spacing: 1.5px;
 }
@@ -205,7 +221,7 @@ body{
 }
 
 .homebtn_div .btnTwo:hover{
-    box-shadow: 0px 0px 5px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
     cursor: pointer;
     letter-spacing: 1.5px;
 }
@@ -259,6 +275,57 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+@media screen and (max-width:991px){
+    .homebtn_div{
+        padding: 0%;
+    }
+
+    .homebtn_div.first{
+        margin-top: 40px;
+    }
+
+    .homebtn_div.second{
+        margin-top: 10px;
+    }
+
+    .homerangetxt_div{
+        text-align: center;
+    }
+
+    .home_card.first{
+        margin-top: 40px;
+    }
+
+    .home_card.second{
+         margin-top: 40px;
+    }
+
+    .home_card.third{
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1192px){
+    .home_card.second{
+        margin: 0px 20px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .home_tilesocial{
+        bottom: 10px;
+        top: 180px;
+        right: 140px;
+    }
+    
+    .home_titlediv h2{
+        font-size: 24px;
+    }
+    
+}
+
+
+
 /* =========================================== Countdwon ===================================== */
 /* general styling */
 
@@ -279,6 +346,10 @@ body{
     font-weight: normal;
     letter-spacing: .125rem;
     text-transform: uppercase;
+  }
+
+  #countdown ul{
+      padding: 0%;
   }
   
   #countdown li {
@@ -306,7 +377,7 @@ body{
     }
     
     #countdown li span {
-      font-size: 3.375rem;
+      font-size: 1.375rem;
     }
   }
 
@@ -409,6 +480,20 @@ body{
     width: 100px;
     height: auto;
 }
+
+@media screen and (max-width:425px){
+    .about_para{
+        padding: 15px;
+    }
+
+    .about_card.second{
+        margin-top: 20px;
+    }
+
+    .about_card.third{
+        margin-top: 20px;
+    }
+}
 /* ================================= About Style End ==================================================== */
 
 /* ================================= Portfolio Style Start ==================================================== */
@@ -485,6 +570,11 @@ body{
     padding: 50px;
 }
 
+.portfolio1_slidcontainer{
+    background: #F7F6F6;
+    padding: 50px !important;
+}
+
 /* ================================= Portfolio 1 Style End ==================================================== */
 
 /* ================================= Portfolio 2 Style Start ==================================================== */
@@ -523,6 +613,160 @@ body{
 }
 
 /* ================================= Portfolio 2 Style End ==================================================== */
+
+/* ================================= Contact Style Start ==================================================== */
+
+.contact_container{
+    background: #F7F6F6;
+    margin-top: 20px;
+}
+
+.contact_title{
+    border-bottom: 1px solid grey;
+    padding-top: 40px;
+}
+
+.contact_title h2{
+    color: grey;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact_maincontainer{
+    background: #F7F6F6;
+}
+
+.contact_topcontent{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+.contact_teldiv{
+    padding: 15px;
+}
+
+.contact_teldiv ul{
+    padding: 0%;
+    list-style-type: none;
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.contact_addressdiv{
+    padding: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: grey;
+}
+
+.contact_addressdiv p{
+    margin: 0%;
+    font-size: 14px;
+}
+
+.contact_socialdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 130px;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.contact_socialdiv a{
+    color: black;
+}
+
+.contact_socialdiv a:hover{
+    color: black;
+}
+
+.contact_formdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.contact_formrow{
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: .6px;
+    color: #9f9f9f;
+}
+
+.form-floating>.form-control {
+    padding: 5px 10px !important;
+}
+
+.contactform_input{
+    border-radius: 0% !important;
+    border: 1px solid grey !important;
+    line-height: 1 !important;
+    width: 250px !important;
+    margin-bottom: 4px;
+}
+
+.contactform_input:focus{
+    box-shadow: none !important;
+}
+
+.contactform_btn{
+    text-align: right;
+}
+
+.contactform_btn button{
+    background: grey !important;
+    border-radius: 0% !important;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 7px 35px !important;
+    letter-spacing: 1px;
+    border: none !important;
+}
+
+.contactform_btn button:hover{
+    background: #d3d3d3 !important;
+    color: grey;
+}
+
+.contactform_btn button:focus{
+    box-shadow: none !important;
+}
+
+.contact_mapdiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width:764px){
+    .contact_topcontent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact_socialdiv{
+        margin: 0%;
+    }
+
+    .contactform_btn{
+        text-align: center;
+    }
+
+    .contactform_fields{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* ================================= Contact Style End ==================================================== */
+
 
 /* ================================= Footer Style Start ================================================== */
 
