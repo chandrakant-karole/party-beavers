@@ -67,6 +67,7 @@ body{
     }
     .headerbtn_div{
         text-align: center;
+        margin: 0px;
     }
 }
 
@@ -537,6 +538,12 @@ body{
     font-family: 'Raleway', sans-serif;
     padding: 20px 0px;
 }
+
+@media screen and (max-width: 425px){
+    .portfolio_para p{
+        padding: 10px;
+    }
+}
 /* ================================= Portfolio Style End ==================================================== */
 
 
@@ -575,6 +582,12 @@ body{
     padding: 50px !important;
 }
 
+@media screen and (max-width:425px){
+    .portfolio1_paradiv p{
+        padding: 10px;
+    }
+}
+
 /* ================================= Portfolio 1 Style End ==================================================== */
 
 /* ================================= Portfolio 2 Style Start ==================================================== */
@@ -610,6 +623,12 @@ body{
 .portfolio2_slidcontainer{
     background: #F7F6F6;
     padding: 50px !important;
+}
+
+@media screen and (max-width:425px){
+    .portfolio2_paradiv p{
+        padding: 10px;
+    }
 }
 
 /* ================================= Portfolio 2 Style End ==================================================== */
