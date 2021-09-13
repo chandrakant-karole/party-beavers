@@ -3,6 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import PortfolioTwo from '../assets/images/portfolio2.webp';
+import {Link} from 'react-router-dom';
 
 function Portfolio() {
     return (
@@ -27,15 +28,15 @@ function Portfolio() {
             <Container className="portfolio_cardcontainer">
                 <Row className="portfolio_cardrow">
                     <Card className="home_card" style={{ width: '18rem' }}>
-                            <a href="javascript:;">
+                            <Link to="/portfolio1">
                             <Card.Img variant="top" src={PortfolioTwo} alt="portfolio-1"/>
-                            </a>
+                            </Link>
                         <Card.Title className="portfolio_cardtitle">Portfolio 1</Card.Title>
                     </Card>
                     <Card className="home_card" style={{ width: '18rem' }}>
-                        <a href="javascript:;">
+                        <Link to="/portfolio2">
                         <Card.Img variant="top" src={PortfolioTwo} alt="portfolio-2"/>
-                        </a>
+                        </Link>
                         <Card.Title className="portfolio_cardtitle">Portfolio 2</Card.Title>
                     </Card>
                 </Row>
