@@ -71,6 +71,44 @@ body{
     }
 }
 
+/* ============================================= Navbar Start ========================================== */
+
+.navigation_div nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.navigation_div nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav_container{
+    justify-content: end;
+}
+
+.navlist_div{
+    justify-content: space-around;
+    width: 50%;
+}
+
+.nav_main_div{
+    margin-top: 20px !important;
+}
+
+.dropdown-item.active, .dropdown-item:active{
+    background-color: transparent !important;
+}
+
+@media screen and (max-width:992px){
+    .navlist_div{
+        width: 100%;
+    }
+}
+
+/* ============================================= Navbar End ========================================== */
+
 /* ================================= Head Style End ==================================================== */
 
 /* ================================= Home Style Start ==================================================== */
