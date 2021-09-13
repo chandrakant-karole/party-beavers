@@ -93,12 +93,21 @@ body{
     width: 50%;
 }
 
-.nav_main_div{
+.container .row .nav_main_div{
     margin-top: 20px !important;
+    background: #f7f6f6 !important;
 }
 
 .dropdown-item.active, .dropdown-item:active{
     background-color: transparent !important;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgba(0,0,0,0) !important;
+}
+
+.dropdown-menu.show{
+    text-align: center;
 }
 
 @media screen and (max-width:992px){
