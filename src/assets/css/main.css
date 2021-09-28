@@ -10,6 +10,277 @@ body{
 
 /* ================================= Head Style Start ==================================================== */
 
+/* ========================================= New Head Start ================================================= */
+.site_logo{
+    width: 200px;
+}
+
+.discord_img{
+    width: 40px;
+}
+
+.tiktok_img{
+    width: 40px;
+}
+
+.social_bar_div ul li{
+    list-style-type: none;
+}
+
+.twitter_icon_top{
+    background-color: black;
+    padding: 6px 8px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.instagram_icon_top{
+    background-color: black;
+    padding: 6px 10px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.social_bar_div{
+    width: 100%;
+}
+
+.social_bar_div ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerbtn_div h6{
+    color: #E21C21;
+    font-size: 15px;
+}
+/* ========================================= New Head End ================================================= */
+
+/* ==================================== New Index Start ============================================= */
+
+.collage_bg{
+    background-color: black;
+}
+
+.home_headtxt{
+    color: grey;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.mid_collage{
+    display: flex;
+}
+
+/* .dam_house_img{
+    width: 475px;
+    height: 400px;
+} */
+
+.party_pool_img{
+    height: 417px;
+}
+
+.mid_title_section{
+    background-color: #C7C7C7;
+}
+
+.mid_title_txt{
+    color: #E21C21;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.mid_para_txt{
+    font-size: 1.1rem;
+    text-align: center;
+    color: #8f8f8f;
+}
+
+.mid_section_img{
+    width: 300px;
+}
+
+.mintedCount_section{
+    background-color: #C7C7C7;
+}
+
+.mintedCount_title{
+    color: #E21C21;
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 40px 0px;
+}
+
+.mid_sec_social_div{
+    display: flex;
+    justify-content: center;
+}
+
+.mid_sec_social_div ul{
+    display: flex;
+    padding: 0%;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 20%;
+    align-items: center;
+}
+
+.homecountd_para .sub_title{
+    color: #E21C21;
+}
+
+.dam_team_container{
+    background-color: black;
+}
+
+.dam_team_head{
+    color: #384AD3;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.team_box_div{
+    background-color: #DB9421;
+    display: flex;
+}
+
+
+.box_div_img{
+    width: 40%;
+    padding: 5px;
+}
+
+.box_div_content{
+    width: 60%;
+    padding: 5px;
+}
+
+.dam_team_row{
+    justify-content: center;
+}
+
+.box_div_content h4{
+    color: gray;
+    font-size: 18px;
+}
+
+.box_div_content p{
+    font-size: 14px;
+    color: gray;
+}
+
+.team_multi_box{
+    background-color: #DB9421;
+    display: flex;
+    padding: 5px;
+}
+
+.box1, .box2, .box3{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+
+.box1 .box_img{
+    padding: 5px;
+}
+
+.box2 .box_img{
+    padding: 5px;
+}
+
+.box3 .box_img{
+    padding: 5px;
+}
+
+.box1 p{
+    margin-bottom: 2px;
+}
+
+.box2 p{
+    margin-bottom: 2px;
+}
+
+.box3 p{
+    margin-bottom: 2px;
+}
+
+.about_title{
+    color: gray;
+    font-weight: lighter;
+}
+
+.about_social_div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.about_social_div ul{
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.phase_container{
+    background-color: black;
+}
+
+.phase_container .phase_pool_img{
+    height: 430px;
+}
+
+.roadMap_head{
+    color: #DB1C21;
+    font-weight: 400;
+}
+
+.roadMap_subHead{
+    color: #384AD3;
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.phase_txt{
+    color: grey;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.phase_para{
+    color: grey;
+    font-size: 14px;
+}
+
+.footer_social_div{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer_social_div ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    width: 30%;
+}
+
+.footer_txt{
+    color: grey;
+    margin-top: 20px;
+}
+/* ==================================== New Index End ============================================= */
+
+
 .header{
     display: flex;
     justify-content: center;
@@ -33,11 +304,15 @@ body{
 }
 
 .headerbtn_div{
-    text-align: right; 
-    margin-right: 15px;  
+    text-align: right;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around; 
 }
 
-.headerbtn_div a{
+.headerbtn_div .connect_wallet_btn{
     padding: 10px 15px;
     text-transform: uppercase;
     font-style: italic;
@@ -54,7 +329,7 @@ body{
     color: black;
 }
 
-.headerbtn_div a:hover{
+.headerbtn_div .connect_wallet_btn:hover{
     box-shadow: 0px 0px 15px rgb(0 0 0 / 50%);
     cursor: pointer;
     letter-spacing: 1.5px;
