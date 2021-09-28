@@ -79,7 +79,7 @@ body{
     height: 400px;
 } */
 
-.party_pool_img{
+.collage_bg .party_pool_img{
     height: 417px;
 }
 
@@ -226,6 +226,7 @@ body{
     width: 50%;
     align-items: center;
     justify-content: space-evenly;
+    padding: 0%;
 }
 
 .phase_container{
@@ -343,6 +344,47 @@ body{
     .headerbtn_div{
         text-align: center;
         margin: 0px;
+    }
+
+    .header{
+        flex-wrap: wrap;
+    }
+
+    .mid_sec_social_div ul{
+        width: 100%;
+    }
+
+    .about_social_div ul{
+        width: 100%;
+    }
+
+    .footer_social_div ul{
+        width: 100%;
+    }
+    
+    .team_multi_box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box1 .box_img{
+        width: 100px;
+    }
+
+    .box2 .box_img{
+        width: 100px;
+    }
+
+    .box3 .box_img{
+        width: 100px;
+    }
+
+    .homecountd_para .sub_title{
+        font-size: 18px;
+    }
+
+    .team_box_div{
+        margin-top: 15px;
     }
 }
 
