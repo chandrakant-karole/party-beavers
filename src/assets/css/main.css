@@ -11,9 +11,9 @@ body{
 /* ================================= Head Style Start ==================================================== */
 
 /* ========================================= New Head Start ================================================= */
-.site_logo{
+/* .site_logo{
     width: 200px;
-}
+} */
 
 .discord_img{
     width: 40px;
@@ -52,8 +52,9 @@ body{
 }
 
 .headerbtn_div h6{
-    color: #E21C21;
+    color: #f151d4;
     font-size: 15px;
+    text-align: left;
 }
 /* ========================================= New Head End ================================================= */
 
@@ -84,20 +85,24 @@ body{
 }
 
 .mid_title_section{
-    background-color: #C7C7C7;
+    background-color: #2B5336;
+    padding: 15px 0px;
 }
 
 .mid_title_txt{
-    color: #E21C21;
+    color: #ffffff;
     text-align: center;
-    font-size: 1.8rem;
+    /* font-size: 1.8rem; */
     margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 5px;
 }
 
 .mid_para_txt{
     font-size: 1.1rem;
     text-align: center;
-    color: #8f8f8f;
+    color: #aee81d;
 }
 
 .mid_section_img{
@@ -105,14 +110,15 @@ body{
 }
 
 .mintedCount_section{
-    background-color: #C7C7C7;
+    background-color: #AEE81D;
 }
 
 .mintedCount_title{
-    color: #E21C21;
+    color: #2B5336;
     text-align: center;
     font-size: 1.8rem;
     margin: 40px 0px;
+    font-weight: 400;
 }
 
 .mid_sec_social_div{
@@ -284,7 +290,7 @@ body{
 
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 35px;
 }
 
@@ -314,27 +320,26 @@ body{
 }
 
 .headerbtn_div .connect_wallet_btn{
-    padding: 10px 15px;
+    padding: 15px 30px;
     text-transform: uppercase;
     font-style: italic;
     font-weight: bold;
-    background-image: url('../images/btn.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
     border: none;
+    background-color: black;
     outline: none;
+    border-radius: 10px;
     transition: all .2s;
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: black;
+    color: #aee81d;
 }
 
 .headerbtn_div .connect_wallet_btn:hover{
     box-shadow: 0px 0px 15px rgb(0 0 0 / 50%);
     cursor: pointer;
-    letter-spacing: 1.5px;
-    color: black;
+    /* letter-spacing: 1.5px; */
+    color: #aee81d;
 }
 
 @media screen and (max-width:425px){
@@ -431,7 +436,7 @@ body{
 }
 
 .homesocial_icon{
-    color: #ffffff;
+    color: #aee81d;
 }
 
 .home_titlediv h2{
@@ -492,20 +497,19 @@ body{
 }
 
 .homebtn_div .btnOne{
-    padding: 15px 50px;
+    padding: 20px 50px;
     text-transform: uppercase;
     font-style: italic;
     font-weight: bold;
-    background-image: url('../images/btn.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
     border: none;
     outline: none;
     transition: all .2s;
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: black;
+    color: #DC5CC1;
+    border-radius: 15px;
 }
 
 .homebtn_div .btnOne:hover{
@@ -522,20 +526,19 @@ body{
 }
 
 .homebtn_div .btnTwo{
-    padding: 15px 50px;
+    padding: 20px 50px;
     text-transform: uppercase;
     font-style: italic;
     font-weight: bold;
-    background-image: url('../images/btn.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
     border: none;
     outline: none;
     transition: all .2s;
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: black;
+    color: gold;
+    border-radius: 15px;
 }
 
 .homebtn_div .btnTwo:hover{
@@ -1153,3 +1156,39 @@ body{
 }   
 
 /* ================================= Footer Style End ==================================================== */
+
+/* ===================================== 10/11/2021 index ================================================== */
+.headerCont_bg{
+    background: #2B5336;
+}
+
+.header_bg{
+    background: #AEE81D;
+    background-image: url('../images/BEER RIVER.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: bottom;
+}
+
+.siteName{
+    width: 300px;
+}
+
+.site_logo{
+    width: 130px;
+}
+
+.video_tile{
+    color: #FFFAF7;
+    letter-spacing: 4px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+
+.mid_title_txt .mid_char{
+    color: #aee81d;
+}
+
+/* ===================================== 10/11/2021 index ================================================== */

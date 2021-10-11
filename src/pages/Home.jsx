@@ -4,7 +4,7 @@ import Footer from './Footer';
 import '../assets/css/main.css';
 import '../assets/js/main.js';
 import Dummy from '../assets/images/dummy.png';
-import { Container, Row, Col, Card, Form, Image } from 'react-bootstrap';
+import { Container, Row, Col, Card, Form, Image, Ratio } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,8 +15,13 @@ import FratHouse from '../assets/images/The Frat House.jpg';
 import Discord from '../assets/images/discord logo.png';
 import Tiktok from '../assets/images/tiktok logo.png';
 import Logo from '../assets/images/Logo (2).png';
-
-
+import PartyVideo from '../assets/video/House Layer_2_2.mp4';
+import Black from '../assets/images/Black.png';
+import CaryingBuddy from '../assets/images/carying bud.png';
+import Blue from '../assets/images/BeaverUAFro.png';
+import Red from '../assets/images/Brent Ellerson.png';
+import Green from '../assets/images/chugging beer green.png';
+import White from '../assets/images/white.png';
 
 function Home() {
     return (
@@ -26,6 +31,14 @@ function Home() {
             {/* ================ New Index Change Start================ */}
             <Container className="collage_bg" fluid>
                 <Row className="justify-content-md-center">
+                    <Col lg={8}>
+                        <h2 className="video_tile">THE DOPEST PARTY IN THE NFT METAVERSE IS ABOUT TO BEGIN...</h2>
+                        <div>
+                            <Ratio aspectRatio="16x9">
+                                <video src={PartyVideo} autoPlay loop></video>
+                            </Ratio>
+                        </div>
+                    </Col>
                     <Col lg={6}><h2 className="home_headtxt">Metaverse's craziest NFT Party is about to start</h2></Col>
                     <Col lg={8}><Image src={PartBeach} fluid /></Col>
                     <Col lg={5} className="mid_collage"><Image className="dam_house_img" src={DamHouse} fluid /></Col>
@@ -37,7 +50,7 @@ function Home() {
             <Container className="mid_title_section" fluid>
                 <Row className="justify-content-md-center">
                     <Col lg={8}>
-                        <h2 className="mid_title_txt">Are you ready to $@!%ing party in the metaverse? </h2>
+                        <h2 className="mid_title_txt">Are you ready to <span className="mid_char">$@!%</span>ing<br /> party in the metaverse? </h2>
                         <p className="mid_para_txt">10,000 Party Beavers Generatively Designed NFTs<br />Totally ready to party!</p>
                     </Col>
                 </Row>
@@ -45,8 +58,23 @@ function Home() {
 
             <Container>
                 <Row className="justify-content-md-center">
-                    <Col lg={8}>
-                        <Image className="mid_section_img" src={Dummy} fluid />
+                    <Col lg={4}>
+                        <Image className="" src={Black} fluid />
+                    </Col>
+                    <Col lg={4}>
+                        <Image className="" src={CaryingBuddy} fluid />
+                    </Col>
+                    <Col lg={4}>
+                        <Image className="" src={Blue} fluid />
+                    </Col>
+                    <Col lg={4}>
+                        <Image className="" src={Red} fluid />
+                    </Col>
+                    <Col lg={4}>
+                        <Image className="" src={Green} fluid />
+                    </Col>
+                    <Col lg={4}>
+                        <Image className="" src={White} fluid />
                     </Col>
                 </Row>
             </Container>
@@ -54,7 +82,7 @@ function Home() {
             <Container className="mintedCount_section" fluid>
                 <Row className="justify-content-md-center">
                     <Col lg={8}>
-                        <h2 className="mintedCount_title">0 out of 10,000 Party Beavers Minted</h2>
+                        <h2 className="mintedCount_title">0 out of 10,111<br/>Party Beavers Minted</h2>
                     </Col>
                 </Row>
             </Container>
@@ -139,12 +167,15 @@ function Home() {
             </Container> */}
             <Container>
                 <Row>
-                    <Col lg={6}>
+                    <Col lg={4}>
                         <div className="homebtn_div first">
                             <a className="btnOne" href="javascript:;">Connect Wallet</a>
                         </div>
                     </Col>
-                    <Col lg={6}>
+                    <Col lg={4}>
+                        {/* <Image src={Mouse} fluid/> */}
+                    </Col>
+                    <Col lg={4}>
                         <div className="homebtn_div second">
                             <a className="btnTwo" href="javascript:;">Mint a Party beaver</a>
                         </div>
