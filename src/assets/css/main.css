@@ -136,7 +136,7 @@ body{
 }
 
 .homecountd_para .sub_title{
-    color: #E21C21;
+    color: #000000;
 }
 
 .dam_team_container{
@@ -144,9 +144,17 @@ body{
 }
 
 .dam_team_head{
-    color: #384AD3;
+    color: #ffffff;
     text-align: center;
     margin: 20px 0px;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding: 20px 0px;
+}
+
+.dam_team_head .dam_txt{
+    width: 180px;
+    margin-top: -11px;
 }
 
 .team_box_div{
@@ -170,13 +178,13 @@ body{
 }
 
 .box_div_content h4{
-    color: gray;
+    color: black;
     font-size: 18px;
 }
 
 .box_div_content p{
     font-size: 14px;
-    color: gray;
+    color: black;
 }
 
 .team_multi_box{
@@ -186,7 +194,7 @@ body{
 }
 
 .box1, .box2, .box3{
-    color: gray;
+    color: black;
     font-size: 14px;
     text-align: center;
 }
@@ -216,7 +224,7 @@ body{
 }
 
 .about_title{
-    color: gray;
+    /* color: gray; */
     font-weight: lighter;
 }
 
@@ -244,26 +252,45 @@ body{
 }
 
 .roadMap_head{
-    color: #DB1C21;
+    color: #E05EC4;
     font-weight: 400;
+    font-size: 2.2rem;
+    padding: 10px 0px;
 }
 
 .roadMap_subHead{
-    color: #384AD3;
+    color: #D99321;
     font-weight: 400;
     font-size: 1.7rem;
+    padding: 10px 0px;
 }
 
 .phase_txt{
-    color: grey;
-    font-weight: 400;
+    color: #ffffff;
+    font-weight: bold;
     font-size: 1.5rem;
     margin-top: 10px;
 }
 
 .phase_para{
-    color: grey;
-    font-size: 14px;
+    color: #A4DA1B;
+    /* font-size: 14px; */
+}
+
+.phase_para.phase3{
+    color: red;
+}
+
+.phase_para.phase4{
+    color: #DC5CC1;
+}
+
+.phase_para.phase5{
+    color: #29AB73;
+}
+
+.phase_paraBtm{
+    color: #ababab;
 }
 
 .footer_social_div{
@@ -651,7 +678,7 @@ body{
 /* general styling */
 
 #days, #hours, #minutes, #seconds{
-    background: #384AD3;
+    background: #247030;
     color: #ffffff;
     padding: 5px;
     border-radius: 5px;
@@ -1189,6 +1216,36 @@ body{
 
 .mid_title_txt .mid_char{
     color: #aee81d;
+}
+
+.about_headTile{
+    font-weight: 700;
+}
+
+.btm_logo{
+    width: 150px;
+    padding: 10px 0px;
+}
+
+.btm_logo_cont{
+    background-color: #aee81d;
+}
+
+.btm_col{
+    text-align: center;
+}
+
+.phase_collage_bg{
+    background-color: #F7F6F6;
+    padding: 10px;
+}
+
+.mouse_div{
+    align-self: center;
+}
+
+.mouse_img{
+    width: 200px;
 }
 
 /* ===================================== 10/11/2021 index ================================================== */

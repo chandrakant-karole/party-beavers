@@ -22,6 +22,9 @@ import Blue from '../assets/images/BeaverUAFro.png';
 import Red from '../assets/images/Brent Ellerson.png';
 import Green from '../assets/images/chugging beer green.png';
 import White from '../assets/images/white.png';
+import DamText from '../assets/images/DAMMM COLOURS.png';
+import SiteLogo from '../assets/images/PARTY BEAVERS TITLE outline.png';
+import Mouse from '../assets/images/TileBeaver.png';
 
 function Home() {
     return (
@@ -39,11 +42,11 @@ function Home() {
                             </Ratio>
                         </div>
                     </Col>
-                    <Col lg={6}><h2 className="home_headtxt">Metaverse's craziest NFT Party is about to start</h2></Col>
+                    {/* <Col lg={6}><h2 className="home_headtxt">Metaverse's craziest NFT Party is about to start</h2></Col>
                     <Col lg={8}><Image src={PartBeach} fluid /></Col>
                     <Col lg={5} className="mid_collage"><Image className="dam_house_img" src={DamHouse} fluid /></Col>
                     <Col lg={3}><Image className="party_pool_img" src={PartPool} fluid /></Col>
-                    <Col lg={8}><Image src={FratHouse} fluid /></Col>
+                    <Col lg={8}><Image src={FratHouse} fluid /></Col> */}
                 </Row>
             </Container>
 
@@ -82,7 +85,7 @@ function Home() {
             <Container className="mintedCount_section" fluid>
                 <Row className="justify-content-md-center">
                     <Col lg={8}>
-                        <h2 className="mintedCount_title">0 out of 10,111<br/>Party Beavers Minted</h2>
+                        <h2 className="mintedCount_title">0 out of 10,111<br />Party Beavers Minted</h2>
                     </Col>
                 </Row>
             </Container>
@@ -172,8 +175,8 @@ function Home() {
                             <a className="btnOne" href="javascript:;">Connect Wallet</a>
                         </div>
                     </Col>
-                    <Col lg={4}>
-                        {/* <Image src={Mouse} fluid/> */}
+                    <Col lg={4} className="mouse_div">
+                        <Image src={Mouse} fluid className="mouse_img"/>
                     </Col>
                     <Col lg={4}>
                         <div className="homebtn_div second">
@@ -198,7 +201,7 @@ function Home() {
                 <Row>
                     <Col lg={12} sm={12}>
                         <div className="homecountd_txt">
-                            <h2>Get Ready to Party</h2>
+                            <h3>17.11.2021 8 PM EST - Minting Gateway will open</h3>
                         </div>
                     </Col>
                     <Col lg={12} sm={12}>
@@ -232,7 +235,7 @@ function Home() {
 
             <Container className="dam_team_container" fluid>
                 <Row className="dam_team_row my-4">
-                    <h2 className="dam_team_head">The Party Beaver Dam Team</h2>
+                    <h2 className="dam_team_head">The Whole <Image className="dam_txt" src={DamText} fluid /> Team</h2>
                     <Col lg={4}>
                         <div className="team_box_div">
                             <div className="box_div_img"><Image className="dam_team_img" src={Logo} fluid /></div>
@@ -297,7 +300,12 @@ function Home() {
 
             <Container>
                 <Row className="justify-content-md-center">
-                    <Col lg={6}><h2 className="about_title">Learn More About the Party Beavers</h2>
+                    <Col lg={10}>
+                        <h2 className="about_headTile">MINT YOUR OWN BEAVER FOR VIP PERKS in<br /> Metaverse's Massively Multiplayer NFT Party Zone.</h2>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center">
+                    <Col lg={7}><h2 className="about_title">Follow & Learn More About the Party Beavers</h2>
                         <span className="about_social_div">
                             <ul>
                                 <li><a href="javascript:;"><Image className="discord_img" src={Discord} /></a></li>
@@ -313,7 +321,7 @@ function Home() {
             <Container className="phase_container" fluid>
                 <Row className="justify-content-md-center">
                     <Col lg={8}>
-                        <h2 className="roadMap_head">The Omega Alpha Dam Party Beaver Mission Statement (and Road Map):</h2>
+                        <h2 className="roadMap_head">The Omega Alpha Dam Party Beaver's Mission</h2>
                         <h2 className="roadMap_subHead">Completion of 30-Day Campaign.​</h2>
                         <h3 className="phase_txt">Phase 1:</h3>
                         <p className="phase_para">Present Data to the SM Party Beaver Community developed on the level of engagement for each social media platform.​</p>
@@ -331,17 +339,17 @@ function Home() {
                         <p className="phase_para">"Tickets" sold to the Beaver Party will add to the developers pool of funds to develop...</p>
 
                         <h3 className="phase_txt">Phase 2:</h3>
-                        <p className="phase_para">Open all three primary party spaces</p>
+                        <p className="phase_para">Open all (3) primary party spaces</p>
 
 
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
-                    <Col lg={5}>
+                    <Col lg={5} className="phase_collage_bg">
                         <Image src={PartBeach} fluid />
                         <Image src={FratHouse} fluid />
                     </Col>
-                    <Col lg={3}>
+                    <Col lg={3} className="phase_collage_bg">
                         <Image className="phase_pool_img" src={PartPool} fluid />
                     </Col>
                 </Row>
@@ -366,7 +374,7 @@ function Home() {
                         </ul>
 
                         <h3 className="phase_txt">Phase 3:</h3>
-                        <ul className="phase_para">
+                        <ul className="phase_para phase3">
                             <li>Surf a giant wave</li>
                             <li>Skate the giant half pipe</li>
                             <li>Play dice, blackjack, or roulette</li>
@@ -379,7 +387,7 @@ function Home() {
 
 
                         <h3 className="phase_txt">Phase 4:</h3>
-                        <ul className="phase_para">
+                        <ul className="phase_para phase4">
                             <li>Enable narcotics effects, including designer experiences for Ayahuasca developers and users</li>
                             <li>Enable Girlfriends and x-rated game features</li>
                             <li>Open the VIP elevator to VIP rooms</li>
@@ -390,7 +398,14 @@ function Home() {
                         </ul>
 
                         <h3 className="phase_txt">Phase 5:</h3>
-                        <p className="phase_para">Initiate a series of votes to determine future expansion projects for the Beaver Party Metaverse.  Party Beaver NFT owners will proportionately vote on the expansion of experience, functionality, territory and game play.​</p>
+                        <p className="phase_para phase5">Initiate a series of votes to determine future expansion projects for the Beaver Party Metaverse.  Party Beaver NFT owners will proportionately vote on the expansion of experience, functionality, territory and game play.​</p>
+
+                        <p className="phase_paraBtm">* Why 10,111 Party Beavers?  It's a prime number.  100 are for promotional giveaways, and 11 are for team members.  The budget planning for the most epic party game in the metaverse requires the sales of 10,000 Party Beavers for this world to come alive!</p>
+                    </Col>
+                </Row>
+                <Row className="justify-content-md-center btm_logo_cont">
+                    <Col lg={2} className="btm_col">
+                        <Image src={SiteLogo} fluid className="btm_logo"/>
                     </Col>
                 </Row>
             </Container>
