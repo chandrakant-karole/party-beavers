@@ -12,8 +12,8 @@ import PartBeach from '../assets/images/party beach.jpg';
 import DamHouse from '../assets/images/Omega Alpha Dam House.jpg';
 import PartPool from '../assets/images/party pool.jpg';
 import FratHouse from '../assets/images/The Frat House.jpg';
-import Discord from '../assets/images/discord logo.png';
-import Tiktok from '../assets/images/tiktok logo.png';
+// import Discord from '../assets/images/discord logo.png';
+// import Tiktok from '../assets/images/tiktok logo.png';
 import Logo from '../assets/images/Logo (2).png';
 import PartyVideo from '../assets/video/House Layer_2_2.mp4';
 import Black from '../assets/images/Black.png';
@@ -24,7 +24,20 @@ import Green from '../assets/images/chugging beer green.png';
 import White from '../assets/images/white.png';
 import DamText from '../assets/images/DAMMM COLOURS.png';
 import SiteLogo from '../assets/images/PARTY BEAVERS TITLE outline.png';
-import Mouse from '../assets/images/TileBeaver.png';
+// import Mouse from '../assets/images/TileBeaver.png';
+import Paw from '../assets/images/Beaver Paw ICON.png';
+import Tiktok from '../assets/images/tiktok.png';
+import Insta from '../assets/images/insta.png';
+import Twitter from '../assets/images/twiter.png';
+import MLogo from '../assets/images/m-logo.png';
+import Discord from '../assets/images/discord.png';
+import Ganja from '../assets/images/Ganja Master.png';
+import Clever from '../assets/images/Cleave the Beave.png';
+import Kegger from '../assets/images/Black Kegger.png';
+import Gnar from '../assets/images/Gnar Gnar.png';
+import Russian from '../assets/images/Rusland the Russian Beaver.png';
+import Ice from '../assets/images/Ice Beaver.png';
+import PMJ from '../assets/images/PMJCryptonized.png';
 
 function Home() {
     return (
@@ -176,7 +189,7 @@ function Home() {
                         </div>
                     </Col>
                     <Col lg={4} className="mouse_div">
-                        <Image src={Mouse} fluid className="mouse_img"/>
+                        <Image src={Paw} fluid className="mouse_img"/>
                     </Col>
                     <Col lg={4}>
                         <div className="homebtn_div second">
@@ -218,16 +231,28 @@ function Home() {
                     </Col>
                     <Col>
                         <div className="homecountd_para">
-                            <h2 className="sub_title">30 Day, 100 Party Beaver Give-Away<br /> across 4 platforms</h2>
                             <span className="mid_sec_social_div">
                                 <ul>
-                                    <li><a href="javascript:;"><Image className="discord_img" src={Discord} /></a></li>
-                                    <li><a className="twitter_icon_top" href="javascript:;"><FontAwesomeIcon className="homesocial_icon" icon={faTwitter} /></a></li>
-                                    <li><a href="javascript:;"><Image className="tiktok_img" src={Tiktok} /></a></li>
-                                    <li><a className="instagram_icon_top" href="javascript:;"><FontAwesomeIcon className="homesocial_icon" icon={faInstagram} /></a></li>
+                                <li><a href="javascript:;"><Image className="tiktok_img" src={Tiktok} /></a></li>
+                                        <li><a href="javascript:;"><Image className="discord_img" src={Insta} /></a></li>
+                                        <li><a href="javascript:;"><Image className="discord_img" src={Twitter} /></a></li>
+                                        <li><a href="javascript:;"><Image className="discord_img" src={MLogo} /></a></li>
+                                        <li><a href="javascript:;"><Image className="discord_img" src={Discord} /></a></li>
+                                    {/* <li><a className="twitter_icon_top" href="javascript:;"><FontAwesomeIcon className="homesocial_icon" icon={faTwitter} /></a></li> */}
+                                    {/* <li><a className="instagram_icon_top" href="javascript:;"><FontAwesomeIcon className="homesocial_icon" icon={faInstagram} /></a></li> */}
                                 </ul>
                             </span>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+            <Container>
+                <Row>
+                    <Col lg={12}>
+                        <div className="wood_box">
+                            <h2 className="sub_title_top">30 Day, 100 Party Beaver Give-Away<br /> across 4 platforms</h2>
                             <h2 className="sub_title">Follow and set alarms for Party<br /> Beaver Updates and chances to win!</h2>
+
                         </div>
                     </Col>
                 </Row>
@@ -238,18 +263,18 @@ function Home() {
                     <h2 className="dam_team_head">The Whole <Image className="dam_txt" src={DamText} fluid /> Team</h2>
                     <Col lg={4}>
                         <div className="team_box_div">
-                            <div className="box_div_img"><Image className="dam_team_img" src={Logo} fluid /></div>
+                            <div className="box_div_img"><Image className="dam_team_img" src={Ganja} fluid /></div>
                             <div className="box_div_content">
-                                <h4>Creator - Dick Dam Stix</h4>
+                                <h4><span className="team_bx_head">Creator</span><br/> <span className="team_bx_tile">- Dick Dam Stix</span></h4>
                                 <p>Party Beaver artist, video editor and project lead.  Dick Dam Stix's mind will give birth to the most chaotic mish mash of NFT action the metaverse has ever seen.</p>
                             </div>
                         </div>
                     </Col>
                     <Col lg={4}>
                         <div className="team_box_div">
-                            <div className="box_div_img"><Image className="dam_team_img" src={Logo} fluid /></div>
+                            <div className="box_div_img"><Image className="dam_team_img" src={Clever} fluid /></div>
                             <div className="box_div_content">
-                                <h4>Artist - Cleave the Beave</h4>
+                                <h4><span className="team_bx_head">Artist</span><br /> <span className="team_bx_tile">- Cleave the Beave</span></h4>
                                 <p>20+ year experienced illustrator, Cleve the BEave is a trend setting Canadian artist from Toronto and co creator of Party Beavers.</p>
                             </div>
                         </div>
@@ -258,41 +283,41 @@ function Home() {
                 <Row className="dam_team_row my-4">
                     <Col lg={4}>
                         <div className="team_box_div">
-                            <div className="box_div_img"><Image className="dam_team_img" src={Logo} fluid /></div>
+                            <div className="box_div_img"><Image className="dam_team_img" src={Kegger} fluid /></div>
                             <div className="box_div_content">
-                                <h4>Programmer - Ajay</h4>
+                                <h4><span className="team_bx_head">Programmer</span><br /><span className="team_bx_tile"> - Ajay</span></h4>
                                 <p>CEO of InfoGrains.com, Ajay commands an army of blockchain programmers with over a century of combined experience.  A tight NFT minting experience is a guarantee.  </p>
                             </div>
                         </div>
                         <div className="team_box_div my-4">
-                            <div className="box_div_img"><Image className="dam_team_img" src={Logo} fluid /></div>
+                            <div className="box_div_img"><Image className="dam_team_img" src={Russian} fluid /></div>
                             <div className="box_div_content">
-                                <h4>Animation - Ruslan the Russian Beaver</h4>
+                                <h4><span className="team_bx_head">Animation</span><br /> <span className="team_bx_tile">- Ruslan the Russian Beaver</span></h4>
                                 <p>NFT and crypto junkie, Ruslan the Russian Beaver is the talent behind bringing Party Beavers to life in preparation for NFT in-game animation, and game play.</p>
                             </div>
                         </div>
                     </Col>
                     <Col lg={4}>
                         <div className="team_box_div">
-                            <div className="box_div_img"><Image className="dam_team_img" src={Logo} fluid /></div>
+                            <div className="box_div_img"><Image className="dam_team_img" src={Gnar} fluid /></div>
                             <div className="box_div_content">
-                                <h4>Animation - Ruslan the Russian Beaver</h4>
+                                <h4><span className="team_bx_head">Animation</span><br /> <span className="team_bx_tile">- Ruslan the Russian Beaver</span></h4>
                                 <p>NFT and crypto junkie, Ruslan the Russian Beaver is the talent behind bringing Party Beavers to life in preparation for NFT in-game animation, and game play.</p>
                             </div>
                         </div>
                         <div className="team_multi_box">
                             <div className="box1">
-                                <Image className="box_img" src={Logo} fluid />
-                                <p>Decentro's Girl German Twitter</p>
+                                <Image className="box_img" src={Ice} fluid />
+                                <p>Ice Beaver German Twitter</p>
                             </div>
                             <div className="box2">
-                                <Image className="box_img" src={Logo} fluid />
+                                <Image className="box_img" src={PMJ} fluid />
                                 <p>PMJCryptonized Japanese Twitter</p>
                             </div>
-                            <div className="box3">
+                            {/* <div className="box3">
                                 <Image className="box_img" src={Logo} fluid />
                                 <p>CryptoShmypto Twitter</p>
-                            </div>
+                            </div> */}
                         </div>
                     </Col>
                 </Row>

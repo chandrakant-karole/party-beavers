@@ -25,6 +25,8 @@ body{
 
 .social_bar_div ul li{
     list-style-type: none;
+    margin-right: 5px;
+    padding: 5px;
 }
 
 .twitter_icon_top{
@@ -52,9 +54,9 @@ body{
 }
 
 .headerbtn_div h6{
-    color: #f151d4;
-    font-size: 15px;
-    text-align: left;
+    color: #fc70e3;
+    font-size: 20px;
+    text-align: center;
 }
 /* ========================================= New Head End ================================================= */
 
@@ -81,8 +83,8 @@ body{
 }
 
 .container .row .nav_main_div{
-    margin-top: 20px !important;
     background: #f7f6f6 !important;
+    display: none;
 }
 
 .dropdown-item.active, .dropdown-item:active{
@@ -100,6 +102,9 @@ body{
 @media screen and (max-width:992px){
     .navlist_div{
         width: 100%;
+    }
+    .container .row .nav_main_div{
+        display: block;
     }
 }
 
@@ -248,11 +253,11 @@ body{
 }
 
 .box1 .box_img{
-    padding: 5px;
+    padding: 0px 25px;
 }
 
 .box2 .box_img{
-    padding: 5px;
+    padding: 0px 25px;
 }
 
 .box3 .box_img{
@@ -366,7 +371,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 35px;
+    padding: 35px 5px;
 }
 
 .head_div{
@@ -387,14 +392,17 @@ body{
 
 .headerbtn_div{
     text-align: right;
-    margin-right: 15px;
+    /* margin-right: 15px; */
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-around; 
 }
 
 .headerbtn_div .connect_wallet_btn{
+    width: 100%;
+    text-align: center;
     padding: 15px 30px;
     text-transform: uppercase;
     font-style: italic;
@@ -407,14 +415,16 @@ body{
     font-size: 15px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #aee81d;
+    color: #ffffff;
+    margin-bottom: 10px;
 }
 
 .headerbtn_div .connect_wallet_btn:hover{
     box-shadow: 0px 0px 15px rgb(0 0 0 / 50%);
     cursor: pointer;
-    /* letter-spacing: 1.5px; */
-    color: #aee81d;
+    letter-spacing: 2.5px;
+    color: #E05EC4;
+    padding: 15px 19px;
 }
 
 @media screen and (max-width:425px){
@@ -572,6 +582,7 @@ body{
 }
 
 .homebtn_div .btnOne{
+    width: 100%;
     padding: 20px 50px;
     text-transform: uppercase;
     font-style: italic;
@@ -590,7 +601,8 @@ body{
 .homebtn_div .btnOne:hover{
     box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
     cursor: pointer;
-    letter-spacing: 1.5px;
+    letter-spacing: 2.5px;
+    color: red;
 }
 
 .homebtn_div{
@@ -601,6 +613,7 @@ body{
 }
 
 .homebtn_div .btnTwo{
+    width: 100%;
     padding: 20px 50px;
     text-transform: uppercase;
     font-style: italic;
@@ -619,7 +632,8 @@ body{
 .homebtn_div .btnTwo:hover{
     box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
     cursor: pointer;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
+    color: green;
 }
 
 .homerangetxt_div{
@@ -726,7 +740,7 @@ body{
 /* general styling */
 
 #days, #hours, #minutes, #seconds{
-    background: #247030;
+    background: #AEE81D;
     color: #ffffff;
     padding: 5px;
     border-radius: 5px;
@@ -1247,10 +1261,12 @@ body{
 
 .siteName{
     width: 300px;
+    margin-bottom: 40px;
 }
 
 .site_logo{
-    width: 130px;
+    width: 169px;
+    margin-bottom: -18px;
 }
 
 .video_tile{
@@ -1293,7 +1309,37 @@ body{
 }
 
 .mouse_img{
-    width: 200px;
+    width: 100px;
 }
 
 /* ===================================== 10/11/2021 index ================================================== */
+
+/* ===================================== 10/12/2021 index ================================================== */
+
+.social_bar_div ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+.wood_box{
+    background-image: url('../images/beaver pelt banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 40px;
+}
+
+.sub_title_top{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.team_bx_head{
+    text-transform: uppercase;
+}
+
+.team_bx_tile{
+    font-style: italic;
+}
+/* ===================================== 10/12/2021 index ================================================== */
+
