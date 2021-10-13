@@ -1,47 +1,74 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 import '../assets/css/main.css';
 import Book from '../assets/images/book.jpg';
 import Crypto from '../assets/images/crypto.jpg';
 import Draw from '../assets/images/draw.jpg';
-
+import Fisherman from '../assets/images/Fisherman.jpg';
+import SMBanner from '../assets/images/Opensea header.png';
 
 function About() {
     return (
         <>
             <Header />
-
-            <Container className="about_headcontainer">
+        <div className="about_headcontainer">
+            <Container >
                 <Row>
-                    <Col lg={12}>
+                    <Col lg={8}>
                         <div className="about_titlehead">
-                            <h2>About Us</h2>
+                            <h2>Social Media Influencer can Earn<br /> with Party Beavers</h2>
                         </div>
                     </Col>
+                    <Col lg={4}>
+                        <Image className="fisherman_img" src={Fisherman} fluid />
+                    </Col>
+                    <div className="btm_border">
+                    </div>
+                </Row>
+                <Row>
                     <Col lg={12}>
                         <div className="about_para">
-                            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                            <p className="sm_influencer_para">Thank you for coming to take a look at our private posting for Social Media influencers.<br />
+                                We value your attention, and it will pay for you to be here.</p>
+                            <p className="sm_influencer_para">Firstly, Party Beavers is a serious project — one you can be confident to promote. We are partnered with Infograins.com to provide a perfect and secure minting experience. Their experience in Unity development specifically for blockchain gaming and DeFi, also ensure the later phases of this project will materialize successfully. Party Beavers is chaotic, wacky, and pushing limits of art and imagination — the team behind it is well experienced and highly dedicated to success.</p>
+
+                            <h4 className="sm_influencer_title">What you can earn as an influencer:</h4>
+                            <p className="sm_influencer_para">The first 100 Party Beavers ever minted will be distributed to our followers on Social Media.</p>
+                            <p className="sm_influencer_para">Twenty of these will go to super influencers like you in the following manner:</p>
+                            <p className="sm_influencer_para">Top influencer (most followers) will get 5 Party Beavers (Launch value of approximately $200 USD each)<br />
+                                Second:  Will get 4 Party Beavers<br />
+                                Third:  Will get 3 Party Beavers<br />
+                                Fourth:  Will get 2 Party Beavers<br />
+                                The next 6 top Influencers will get 1 Party Beaver each.
+                            </p>
+
+                            <h4 className="sm_influencer_title">LOGS Token Airdrop</h4>
+                            <p className="sm_influencer_para">Not formally announced, and an inside secret, all Party Beaver owners will get an airdrop of LOGS.
+                                LOGS will be a Solana based cryptocurrency for in game rewards, purchases and gambling, as well as DeFi (staking, yield farming, and swapping).</p>
+                            <p className="sm_influencer_para">Our top 20 influencers will receive 10% of the airdrop, proportionally to the number of followers they have.</p>
+                            <p className="sm_influencer_para">Please do not leak this information — instead, get on board and wait for our tweets revealing the LOGS airdrop, and have the joy of your followers getting the info in a manner that coincides with our well developed campaign.</p>
+                            <p className="sm_influencer_para">Thank you again for considering Party Beavers — please feel free to DM me, Dick Dam Stix (@DecentroMedia on twitter) if you have any questions.</p>
+                            <p className="sm_influencer_para">I hope we will be partying together soon in the ALPHA OMEGA ETH party house!</p>
                         </div>
                     </Col>
                 </Row>
             </Container>
+            </div>
 
-            <Container className="about_servicecontainer">
+            <Container>
                 <Row>
-                    <Col>
-                        <div className="about_servicetxt">
-                            <h2>Service</h2>
-                        </div>
-                    </Col>
+                    <div className="about_btm_banner">
+                        <Image src={SMBanner} fluid/>
+                    </div>
                 </Row>
             </Container>
 
-            <Container className="about_cardcontainer">
+            {/* <Container className="about_cardcontainer">
                 <Row className="about_cardsrow">
                     <Card className="about_card" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={Book} className="about_cardimg" alt="books"/>
+                        <Card.Img variant="top" src={Book} className="about_cardimg" alt="books" />
                         <div className="about_svg">
                             <svg fill="#fff" preserveAspectRatio="xMidYMid meet" className="about_svgicon" id="SvgShp1-1c7asvgcontent" data-bbox="4.042 2.476 50 45.024" xmlns="http://www.w3.org/2000/svg" viewBox="4.042 2.476 50 45.024" role="img">
                                 <g>
@@ -59,7 +86,7 @@ function About() {
                         </Card.Text>
                     </Card>
                     <Card className="about_card second" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={Crypto} className="about_cardimg" alt="crypto-coin"/>
+                        <Card.Img variant="top" src={Crypto} className="about_cardimg" alt="crypto-coin" />
                         <div className="about_svg">
                             <svg fill="#fff" preserveAspectRatio="xMidYMid meet" className="about_svgicon" id="SvgShp1-1c7asvgcontent" data-bbox="4.042 2.476 50 45.024" xmlns="http://www.w3.org/2000/svg" viewBox="4.042 2.476 50 45.024" role="img">
                                 <g>
@@ -77,7 +104,7 @@ function About() {
                         </Card.Text>
                     </Card>
                     <Card className="about_card third" style={{ width: '18rem' }}>
-                        <Card.Img variant="top" src={Draw} className="about_cardimg" alt="draw"/>
+                        <Card.Img variant="top" src={Draw} className="about_cardimg" alt="draw" />
                         <div className="about_svg">
                             <svg fill="#fff" preserveAspectRatio="xMidYMid meet" className="about_svgicon" id="SvgShp1-1c7asvgcontent" data-bbox="4.042 2.476 50 45.024" xmlns="http://www.w3.org/2000/svg" viewBox="4.042 2.476 50 45.024" role="img">
                                 <g>
@@ -95,7 +122,7 @@ function About() {
                         </Card.Text>
                     </Card>
                 </Row>
-            </Container>
+            </Container> */}
 
             <Footer />
         </>

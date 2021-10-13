@@ -38,6 +38,7 @@ import Gnar from '../assets/images/Gnar Gnar.png';
 import Russian from '../assets/images/Rusland the Russian Beaver.png';
 import Ice from '../assets/images/Ice Beaver.png';
 import PMJ from '../assets/images/PMJCryptonized.png';
+import Wooden from '../assets/images/CryptoBeavers_DAM EDIT.png'
 
 function Home() {
     return (
@@ -321,6 +322,11 @@ function Home() {
                         </div>
                     </Col>
                 </Row>
+                <Row className="justify-content-md-center">
+                    <Col className="wooden_imgDiv" lg={6}>
+                        <Image className="wooden_img" src={Wooden} fluid/>
+                    </Col>
+                </Row>
             </Container>
 
             <Container>
@@ -332,12 +338,15 @@ function Home() {
                 <Row className="justify-content-md-center">
                     <Col lg={7}><h2 className="about_title">Follow & Learn More About the Party Beavers</h2>
                         <span className="about_social_div">
-                            <ul>
-                                <li><a href="javascript:;"><Image className="discord_img" src={Discord} /></a></li>
-                                <li><a className="twitter_icon_top" href="javascript:;"><FontAwesomeIcon className="homesocial_icon" icon={faTwitter} /></a></li>
+                        <ul>
                                 <li><a href="javascript:;"><Image className="tiktok_img" src={Tiktok} /></a></li>
-                                <li><a className="instagram_icon_top" href="javascript:;"><FontAwesomeIcon className="homesocial_icon" icon={faInstagram} /></a></li>
-                            </ul>
+                                        <li><a href="javascript:;"><Image className="discord_img" src={Insta} /></a></li>
+                                        <li><a href="javascript:;"><Image className="discord_img" src={Twitter} /></a></li>
+                                        <li><a href="javascript:;"><Image className="discord_img" src={MLogo} /></a></li>
+                                        <li><a href="javascript:;"><Image className="discord_img" src={Discord} /></a></li>
+                                    {/* <li><a className="twitter_icon_top" href="javascript:;"><FontAwesomeIcon className="homesocial_icon" icon={faTwitter} /></a></li> */}
+                                    {/* <li><a className="instagram_icon_top" href="javascript:;"><FontAwesomeIcon className="homesocial_icon" icon={faInstagram} /></a></li> */}
+                                </ul>
                         </span>
                     </Col>
                 </Row>
@@ -369,20 +378,20 @@ function Home() {
 
                     </Col>
                 </Row>
-                <Row className="justify-content-md-center">
-                    <Col lg={5} className="phase_collage_bg">
-                        <Image src={PartBeach} fluid />
-                        <Image src={FratHouse} fluid />
+                <Row className="justify-content-md-center collageImg_bg">
+                    <Col lg={5}>
+                        <Image className="collageImg_gapping" src={PartBeach} fluid />
+                        <Image className="collageImg_gapping" src={FratHouse} fluid />
                     </Col>
-                    <Col lg={3} className="phase_collage_bg">
-                        <Image className="phase_pool_img" src={PartPool} fluid />
+                    <Col lg={3}>
+                        <Image className="phase_pool_img collageImg_gapping" src={PartPool} fluid />
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col lg={8}>
                         <h3 className="phase_txt">Phase 2 functionality goals:</h3>
                         <ul className="phase_para">
-                            <li>Access the crypto ATM to claim airdropped LOGS​, and begin yield farming and staking</li>
+                            {/* <li>Access the crypto ATM to claim airdropped LOGS​, and begin yield farming and staking</li>
                             <li>Use PC game controller to move your NFT character</li>
                             <li>Get into brawls</li>
                             <li>Square off in the ring in Beaver to Beaver combat</li>
@@ -395,31 +404,34 @@ function Home() {
                             <li>Mint VIP rooms</li>
                             <li>Start of the Omega Alpha Dam Leader Board</li>
                             <li>Allow users to DJ and change video in areas</li>
-                            <li>Open the dance floor</li>
+                            <li>Open the dance floor</li> */}
+                            <li>To be revealed during 30-day SM campaign</li>
                         </ul>
 
                         <h3 className="phase_txt">Phase 3:</h3>
                         <ul className="phase_para phase3">
-                            <li>Surf a giant wave</li>
+                            <li>To be revealed during 30-day SM campaign</li>
+                            {/* <li>Surf a giant wave</li>
                             <li>Skate the giant half pipe</li>
                             <li>Play dice, blackjack, or roulette</li>
                             <li>Play water polo and baseball</li>
                             <li>Play beach volleyball</li>
                             <li>Open the strip club</li>
                             <li>Open the drinking games area (pool, darts, beer pong)</li>
-                            <li>Host a first ever live DJ to spin at a metaverse event for the grand opening event (2023)</li>
+                            <li>Host a first ever live DJ to spin at a metaverse event for the grand opening event (2023)</li> */}
                         </ul>
 
 
                         <h3 className="phase_txt">Phase 4:</h3>
                         <ul className="phase_para phase4">
-                            <li>Enable narcotics effects, including designer experiences for Ayahuasca developers and users</li>
+                            <li>To be revealed during 30-day SM campaign</li>
+                            {/* <li>Enable narcotics effects, including designer experiences for Ayahuasca developers and users</li>
                             <li>Enable Girlfriends and x-rated game features</li>
                             <li>Open the VIP elevator to VIP rooms</li>
                             <li>Open the Dam Beaver Ski Resort</li>
                             <li>Open the Cruise Ship Combat Area (armed NFT conflict)</li>
                             <li>Open the Beach Front Combat area (armed NFT conflict)</li>
-                            <li>Open the Poker tables</li>
+                            <li>Open the Poker tables</li> */}
                         </ul>
 
                         <h3 className="phase_txt">Phase 5:</h3>

@@ -301,7 +301,7 @@ body{
 }
 
 .phase_container .phase_pool_img{
-    height: 430px;
+    height: 490px;
 }
 
 .roadMap_head{
@@ -327,7 +327,7 @@ body{
 
 .phase_para{
     color: #A4DA1B;
-    /* font-size: 14px; */
+    font-size: 17px;
 }
 
 .phase_para.phase3{
@@ -340,16 +340,18 @@ body{
 
 .phase_para.phase5{
     color: #29AB73;
+    font-size: 17px;
 }
 
 .phase_paraBtm{
-    color: #ababab;
+    color: #d0d0d0;
+    font-size: 17px;
 }
 
 .footer_social_div{
     display: flex;
     justify-content: center;
-
+    margin-top: 20px;
 }
 
 .footer_social_div ul{
@@ -363,7 +365,7 @@ body{
 
 .footer_txt{
     color: grey;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 /* ==================================== New Index End ============================================= */
 
@@ -797,26 +799,31 @@ body{
 
 /* ================================= About Style Start ================================================== */
 
-.about_headcontainer{
+/* .about_headcontainer{
     background: #F7F6F6;
     margin-top: 20px;
-}
+} */
 
 .about_titlehead{
-    border-bottom: 1px solid grey;
+    /* border-bottom: 1px solid grey; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about_titlehead h2{
     font-family: 'Raleway', sans-serif;
-    color: grey;
-    font-weight: bold;
-    text-transform: uppercase;
+    color: #5f5f5f;
+    font-weight: 900;
+    /* text-transform: uppercase; */
     padding: 40px 0px 10px 0px; 
 }
 
 .about_para{
     color: grey;
     padding: 50px;
+    text-align: left;
 }
 
 .about_servicecontainer{
@@ -1343,3 +1350,62 @@ body{
 }
 /* ===================================== 10/12/2021 index ================================================== */
 
+.wooden_imgDiv{
+    text-align: center;
+}
+
+.wooden_img{
+    margin-top: -180px;
+    margin-bottom: -137px;
+    width: 80%;
+}
+
+.about_headTile{
+    padding-top: 80px;
+}
+
+.about_title{
+    padding-top: 40px;
+}
+
+.about_social_div{
+    padding-bottom: 40px;
+}
+
+.collageImg_bg{
+    background-color: #2B5336;
+}
+
+.collageImg_gapping{
+    padding: 15px 0px;
+}
+
+/* ====================== SM_Influencer page ========================= */
+
+.fisherman_img{
+    width: 250px;
+}
+
+.btm_border{
+    border-bottom: 1px solid grey;
+}
+
+.about_btm_banner{
+    padding: 0px !important;
+}
+
+.sm_influencer_para{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.sm_influencer_title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.about_headcontainer .container{
+    background-color: #F7F6F6;
+}
