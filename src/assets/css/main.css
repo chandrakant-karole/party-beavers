@@ -113,7 +113,7 @@ body{
 
 /* ==================================== New Index Start ============================================= */
 
-.collage_bg{
+.collage_bg .container-fluid{
     background-color: black;
 }
 
@@ -137,7 +137,7 @@ body{
     height: 417px;
 }
 
-.mid_title_section{
+.mid_title_section {
     background-color: #2B5336;
     padding: 15px 0px;
 }
@@ -372,6 +372,7 @@ body{
 
 .header{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 35px 5px;
 }
@@ -430,6 +431,10 @@ body{
 }
 
 @media screen and (max-width:425px){
+    .header{
+        justify-content: center;
+    }
+    
     .head_div h1{
         font-size: 22px;
     }
@@ -459,12 +464,24 @@ body{
         justify-content: center;
     }
 
-    .box1 .box_img{
+    /* .box1 .box_img{
         width: 100px;
     }
 
     .box2 .box_img{
         width: 100px;
+    } */
+
+    .box2{
+        margin-bottom: 20px;
+    }
+
+    .box1 p{
+        font-size: 20px;
+    }
+
+    .box2 p{
+        font-size: 20px;
     }
 
     .box3 .box_img{
@@ -638,11 +655,19 @@ body{
     color: green;
 }
 
+.homerangetxt_cont{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+}
+
 .homerangetxt_div{
     text-align: right;
     font-size: 17px;
     color: grey;
     font-weight: 900;
+    margin: 0%;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -702,6 +727,8 @@ body{
 
     .homerangetxt_div{
         text-align: center;
+        margin-top: 15px;
+        font-weight: bolder;
     }
 
     .home_card.first{
@@ -714,6 +741,15 @@ body{
 
     .home_card.third{
         margin-top: 40px;
+    }
+
+    .homerangetxt_cont{
+        justify-content: center;
+    }
+
+    .css-1hskriy{
+        width: 100% !important;
+        padding: 0px 40px;
     }
 }
 
@@ -1380,6 +1416,12 @@ body{
     padding: 15px 0px;
 }
 
+@media screen and (max-width:425px) {
+    .sub_title_top{
+        font-size: 25px;
+    }
+}
+
 /* ====================== SM_Influencer page ========================= */
 
 .fisherman_img{
@@ -1409,3 +1451,34 @@ body{
 .about_headcontainer .container{
     background-color: #F7F6F6;
 }
+
+.pawDiv{
+    text-align: center;
+}
+
+@media screen and (max-width:525px) {
+    .pawDiv img{
+        width: 100px;
+    }
+    .siteName{
+        margin: 0%;
+    }
+}
+
+
+/* ========================== Controllable Slider Start ============================= */
+
+.css-eg0mwd-MuiSlider-thumb{
+    height: 32px !important;
+    border-radius: 15% !important;
+}
+
+.css-187mznn-MuiSlider-root{
+    color: #000000 !important;
+}
+
+.css-187mznn-MuiSlider-root{
+    height: 15px !important;
+}
+
+/* ========================== Controllable Slider End ============================= */
