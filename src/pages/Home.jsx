@@ -245,7 +245,7 @@ function Home() {
                                 <ul>
                                     <li><a href="javascript:;"><Image className="tiktok_img" src={Tiktok} /></a></li>
                                     <li><a href="javascript:;"><Image className="discord_img" src={Insta} /></a></li>
-                                    <li><a href="javascript:;"><Image className="discord_img" src={Twitter} /></a></li>
+                                    <li><a href="https://twitter.com/PartyBeavers?t=ltuno2tuDUyB9PTS0yDmvQ&s=08" target="_blank"><Image className="discord_img" src={Twitter} /></a></li>
                                     <li><a href="javascript:;"><Image className="discord_img" src={MLogo} /></a></li>
                                     <li><a href="javascript:;"><Image className="discord_img" src={Discord} /></a></li>
                                     {/* <li><a className="twitter_icon_top" href="javascript:;"><FontAwesomeIcon className="homesocial_icon" icon={faTwitter} /></a></li> */}
@@ -352,7 +352,7 @@ function Home() {
                             <ul>
                                 <li><a href="javascript:;"><Image className="tiktok_img" src={Tiktok} /></a></li>
                                 <li><a href="javascript:;"><Image className="discord_img" src={Insta} /></a></li>
-                                <li><a href="javascript:;"><Image className="discord_img" src={Twitter} /></a></li>
+                                <li><a href="https://twitter.com/PartyBeavers?t=ltuno2tuDUyB9PTS0yDmvQ&s=08" target="_blank"><Image className="discord_img" src={Twitter} /></a></li>
                                 <li><a href="javascript:;"><Image className="discord_img" src={MLogo} /></a></li>
                                 <li><a href="javascript:;"><Image className="discord_img" src={Discord} /></a></li>
                                 {/* <li><a className="twitter_icon_top" href="javascript:;"><FontAwesomeIcon className="homesocial_icon" icon={faTwitter} /></a></li> */}
