@@ -1456,6 +1456,11 @@ body{
     text-align: center;
 }
 
+.sm_influencer_para.bold{
+    color: #333;
+    font-size: 16px;
+}
+
 @media screen and (max-width:525px) {
     .pawDiv img{
         width: 100px;

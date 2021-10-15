@@ -36,7 +36,7 @@ function About() {
 
                             <h4 className="sm_influencer_title">What you can earn as an influencer:</h4>
                             <p className="sm_influencer_para">The first 100 Party Beavers ever minted will be distributed to our followers on Social Media.</p>
-                            <p className="sm_influencer_para">Twenty of these will go to super influencers like you in the following manner:</p>
+                            <p className="sm_influencer_para bold">Twenty of these will go to super influencers like you in the following manner:</p>
                             <p className="sm_influencer_para">Top influencer (most followers) will get 5 Party Beavers (Launch value of approximately $200 USD each)<br />
                                 Second:  Will get 4 Party Beavers<br />
                                 Third:  Will get 3 Party Beavers<br />
@@ -50,7 +50,7 @@ function About() {
                             <p className="sm_influencer_para">Our top 20 influencers will receive 10% of the airdrop, proportionally to the number of followers they have.</p>
                             <p className="sm_influencer_para">Please do not leak this information — instead, get on board and wait for our tweets revealing the LOGS airdrop, and have the joy of your followers getting the info in a manner that coincides with our well developed campaign.</p>
                             <p className="sm_influencer_para">Thank you again for considering Party Beavers — please feel free to DM me, Dick Dam Stix (@DecentroMedia on twitter) if you have any questions.</p>
-                            <p className="sm_influencer_para">I hope we will be partying together soon in the ALPHA OMEGA ETH party house!</p>
+                            <h5>Take off with us from the ground floor of what is going to be a top tier NFT project.</h5>
                         </div>
                     </Col>
                 </Row>
