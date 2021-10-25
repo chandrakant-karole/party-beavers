@@ -1,4 +1,5 @@
-import React from "react";
+// import React, {useEffect} from "react";
+import React, { Component  , useState, useEffect} from "react";
 import Header from "./Header";
 import Footer from './Footer';
 import '../assets/css/main.css';
@@ -41,7 +42,16 @@ import PMJ from '../assets/images/PMJCryptonized.png';
 import Wooden from '../assets/images/CryptoBeavers_DAM EDIT.png'
 import ControlSlide from "./ControlSlide";
 
-function Home() {
+function Home(props) {
+    useEffect(() => {
+        props.connected_statusState(true)
+        console.log(props.connected_status);
+        if(props.connected_status){
+            
+            document.getElementById('status_metamask').innerText = 'connected';
+        }
+
+      },  [props.connected_status]);
     return (
         <>
             <Header />
@@ -192,7 +202,9 @@ function Home() {
                 <Row>
                     <Col lg={4}>
                         <div className="homebtn_div first">
-                            <a className="btnOne" href="javascript:;">Connect Wallet</a>
+                            {/* <a className="btnOne" href="javascript:;">Connect Wallet</a> */}
+                            <button onClick={props.connect} className="btnOne">Connect Wallet</button>
+                                {props.connected_status? <span >Connected with <b id="status_metamask"></b></span> : <span  >Not connected</span>}
                         </div>
                     </Col>
                     <Col lg={4} className="mouse_div">

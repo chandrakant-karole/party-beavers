@@ -1,4 +1,5 @@
-import React from "react";
+// import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Image, Navbar, NavLink, Nav, NavDropdown } from 'react-bootstrap';
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,6 +16,17 @@ import SiteName from '../assets/images/PARTY BEAVERS TITLE outline.png';
 import HeadLogo from '../assets/images/WEBSITE KEG BEAVER.png';
 
 function Header() {
+    const [connected_status, connected_statusState] = useState(false);
+    
+   
+    async function connect() {
+        window.ethereum.enable();
+       
+        const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+        console.log(accounts,'sdfkhashdf');
+        connected_statusState(true);
+        document.getElementById('status_metamask').innerText = accounts[0];
+    }
     return (
         <>
             <div className="headerCont_bg">
@@ -30,7 +42,9 @@ function Header() {
                                 <Image src={SiteName} fluid className="siteName" />
                                 <Image className="site_logo" src={HeadLogo} fluid />
                                 <div className="headerbtn_div">
-                                    <a className="connect_wallet_btn" href="javascript:;">Connect Wallet</a>
+                                <button onClick={connect} className="connect_wallet_btn">Connect Wallet</button>
+                                {connected_status? <span >Connected with <b id="status_metamask"></b></span> : <span  >Not connected</span>}
+                                    {/* <a className="connect_wallet_btn" href="javascript:;">Connect Wallet</a> */}
                                     <h6>Giveaways on Each SM<br />Platform!</h6>
                                     <div className="social_bar_div">
                                         <ul>
